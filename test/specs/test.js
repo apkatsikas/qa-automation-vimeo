@@ -5,5 +5,7 @@ describe('My test application', () => {
         await MainPage.open();
 
         await MainPage.dropButton.click();
+
+        await MainPage.dropdown_option.click();
     });
 });

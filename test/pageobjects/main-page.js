@@ -10,6 +10,10 @@ class MainPage extends Page {
     get dropButton () {
         return $('#drop-button');
     }
+
+    get dropdown_option(){
+        return $('=click to reveal form')
+    }
 }
 
 module.exports = new MainPage();
