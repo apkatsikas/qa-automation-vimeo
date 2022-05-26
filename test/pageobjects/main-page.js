@@ -11,7 +11,7 @@ class MainPage extends Page {
         return $('#drop-button');
     }
 
-    get dropdown_option(){
+    get dropdownOption(){
         return $('=click to reveal form')
     }
 

@@ -6,7 +6,7 @@ describe('My test application', () => {
 
         await MainPage.dropButton.click();
 
-        await MainPage.dropdown_option.click();
+        await MainPage.dropdownOption.click();
 
         await MainPage.email_address.waitForDisplayed({timeout: 30000});
         await MainPage.email_address.setValue('test@email.com');
